@@ -3,10 +3,13 @@
 *{
     padding:0;
     margin: 0;
-    box-sizing: border-box;
-    font-family:'Rubik', sans-serif;
-    
+    box-sizing: border-box; 
 }
+
+html{
+    font-family:'Rubik', sans-serif ;
+}
+
 
 h1{
     color: #f08080;
@@ -23,7 +26,6 @@ body {
     position: relative;
     height: 100vh;
     width: 100%;
-   
 }
 
 /* MENU NAVEGACION */
@@ -108,14 +110,13 @@ header{
     padding: 50px 50px;
     display: flex;
     justify-content: center;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 .iconosCirculo img{
-    border-radius: 100px;
+    border-radius: 200px;
     width: 150px;
-    border: 3px solid #b54040;
+    border: 3px solid #b54040;   
 }
 
 .iconosCirculo div{
@@ -144,6 +145,10 @@ header{
 .textoFooter{
     color: #b54040;
    
+}
+
+.textoFooter:hover {
+    color: #692020;
 }
 
 /* CONTACTO */
@@ -193,6 +198,7 @@ form{
     color: #f08080;
     line-height: 1.5;
     margin-bottom: 20px;
+    text-align: center;
     
     
 }
@@ -249,8 +255,9 @@ input[type=submit]:hover, input[type=reset]:hover{
 .textBox{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
+    
 }
 
 .infoContact{
