@@ -246,7 +246,7 @@ textarea:focus {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 .infoContact p {
   color: #692020;
