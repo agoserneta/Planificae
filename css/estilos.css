@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   color: #692020;
+  text-align: center;
 }
 
 body {
@@ -75,15 +76,17 @@ header {
   flex-direction: column;
   justify-content: center;
 }
-.contenido-banner h3 {
+.contenido-banner h1 {
   font-size: 30px;
   font-weight: 400;
   padding: 10px 0px;
   align-self: baseline;
+  text-align: left;
+  color: #692020;
 }
-.contenido-banner h3 span {
+.contenido-banner h1 span {
   font-weight: 900;
-  background: #f8dddd;
+  background: #f08080;
   align-self: baseline;
 }
 
@@ -93,7 +96,7 @@ header {
   border: 1px solid #b54040;
   padding: 10px 30px;
   align-self: baseline;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
   border-radius: 7px;
   background: #fcfcfc;
   margin-top: 10px;
@@ -290,6 +293,9 @@ textarea:focus {
   width: 100%;
   text-align: center;
 }
+.freeContainer p {
+  color: #b54040;
+}
 
 .topContent {
   width: 90%;
@@ -410,9 +416,11 @@ textarea:focus {
 
 .wsText {
   text-align: center;
+  margin: 15px;
 }
 .wsText p {
   color: #b54040;
+  margin: auto;
 }
 
 /* FOOTER */
@@ -421,6 +429,11 @@ textarea:focus {
 }
 .textoFooter:hover {
   color: #692020;
+}
+
+footer p {
+  color: #b54040;
+  font-size: 0.8rem;
 }
 
 /* MEDIAS QUERIES */

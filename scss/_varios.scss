@@ -89,8 +89,11 @@
 }
 .wsText {
     text-align: center;
+    margin: 15px;
     p {
-        color: $color_3;
+       color: $color_3;
+       margin: auto;
+    
     }
 }
 
