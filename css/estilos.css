@@ -146,8 +146,8 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 20px;
   padding: 40px;
-  width: 90%;
   height: 90%;
+  width: 90%;
   border-radius: 30px;
   background: #f8dddd;
   box-shadow: 1px 9px 20px -5px lightgray;
@@ -467,6 +467,10 @@ footer p {
   }
 }
 @media (max-width: 600px) {
+  .contactForm {
+    width: 100%;
+    margin: 0px;
+  }
   .contactForm .form {
     margin-left: 0px;
     width: 100%;
@@ -479,6 +483,7 @@ footer p {
   }
   .sectionForm {
     height: auto;
+    padding: auto;
   }
 }
 

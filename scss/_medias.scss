@@ -34,9 +34,13 @@
 }
 @media (max-width: 600px) {
     .contactForm {
+        width: 100%;
+        margin: 0px;
+
         .form {
             margin-left: 0px;
             width: 100%;
+            
         }
         .info {
             margin-bottom: 30px;
@@ -48,6 +52,7 @@
 
     .sectionForm{
         height: auto;
+       padding: auto;
 
 
     }
